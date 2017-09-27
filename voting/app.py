@@ -11,6 +11,8 @@ import sys
 
 optionA = "Futbol"
 optionB = "Soccer"
+optionC = “Testing”
+
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
